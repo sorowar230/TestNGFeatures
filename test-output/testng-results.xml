@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="14" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNG" duration-ms="145" started-at="2017-10-24T21:33:39Z" finished-at="2017-10-24T21:33:39Z">
+    <groups>
+      <group name="accountGroup">
+        <method signature="TestNGDependencies.verifyAccountSettings()[pri:0, instance:TestNG.TestNGDependencies@26be92ad]" name="verifyAccountSettings" class="TestNG.TestNGDependencies"/>
+      </group> <!-- accountGroup -->
+      <group name="functionalTest">
+        <method signature="TestNGGroupTest.composeMail()[pri:0, instance:TestNG.TestNGGroupTest@5034c75a]" name="composeMail" class="TestNG.TestNGGroupTest"/>
+        <method signature="TestNGGroupTest.loginTest()[pri:0, instance:TestNG.TestNGGroupTest@5034c75a]" name="loginTest" class="TestNG.TestNGGroupTest"/>
+      </group> <!-- functionalTest -->
+      <group name="DependencyTestGroup">
+        <method signature="TestNGDependencies.verifyUserLogin()[pri:0, instance:TestNG.TestNGDependencies@26be92ad]" name="verifyUserLogin" class="TestNG.TestNGDependencies"/>
+        <method signature="TestNGDependencies.login()[pri:0, instance:TestNG.TestNGDependencies@26be92ad]" name="login" class="TestNG.TestNGDependencies"/>
+        <method signature="TestNGDependencies.verifyWishlistPage()[pri:0, instance:TestNG.TestNGDependencies@26be92ad]" name="verifyWishlistPage" class="TestNG.TestNGDependencies"/>
+        <method signature="TestNGDependencies.verifyAccountSettings()[pri:0, instance:TestNG.TestNGDependencies@26be92ad]" name="verifyAccountSettings" class="TestNG.TestNGDependencies"/>
+        <method signature="TestNGDependencies.verifyreportSettings()[pri:0, instance:TestNG.TestNGDependencies@26be92ad]" name="verifyreportSettings" class="TestNG.TestNGDependencies"/>
+        <method signature="TestNGDependencies.verifyGeneralSettings()[pri:0, instance:TestNG.TestNGDependencies@26be92ad]" name="verifyGeneralSettings" class="TestNG.TestNGDependencies"/>
+      </group> <!-- DependencyTestGroup -->
+      <group name="annotationsTest">
+        <method signature="TestngAnnotations.testCase1()[pri:0, instance:TestNG.TestngAnnotations@51efea79]" name="testCase1" class="TestNG.TestngAnnotations"/>
+      </group> <!-- annotationsTest -->
+      <group name="userGroup">
+        <method signature="TestNGDependencies.verifyWishlistPage()[pri:0, instance:TestNG.TestNGDependencies@26be92ad]" name="verifyWishlistPage" class="TestNG.TestNGDependencies"/>
+      </group> <!-- userGroup -->
+      <group name="smokeTest">
+        <method signature="TestNGGroupTest.loginTest()[pri:0, instance:TestNG.TestNGGroupTest@5034c75a]" name="loginTest" class="TestNG.TestNGGroupTest"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test name="testngTest" duration-ms="36" started-at="2017-10-24T21:33:39Z" finished-at="2017-10-24T21:33:39Z">
+      <class name="TestNG.TestngAnnotations">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestNG.TestngAnnotations@51efea79]" name="beforeTest" is-config="true" duration-ms="1" started-at="2017-10-24T17:33:39Z" finished-at="2017-10-24T17:33:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestNG.TestngAnnotations@51efea79]" name="beforeClass" is-config="true" duration-ms="1" started-at="2017-10-24T17:33:39Z" finished-at="2017-10-24T17:33:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.TestngAnnotations@51efea79]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-10-24T17:33:39Z" finished-at="2017-10-24T17:33:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testCase1()[pri:0, instance:TestNG.TestngAnnotations@51efea79]" name="testCase1" duration-ms="6" started-at="2017-10-24T17:33:39Z" finished-at="2017-10-24T17:33:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.TestngAnnotations@51efea79]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-10-24T17:33:39Z" finished-at="2017-10-24T17:33:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestNG.TestngAnnotations@51efea79]" name="afterClass" is-config="true" duration-ms="1" started-at="2017-10-24T17:33:39Z" finished-at="2017-10-24T17:33:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestNG.TestngAnnotations@51efea79]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-10-24T17:33:39Z" finished-at="2017-10-24T17:33:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestNG.TestngAnnotations -->
+      <class name="TestNG.TestNGGroupTest">
+        <test-method status="PASS" signature="composeMail()[pri:0, instance:TestNG.TestNGGroupTest@5034c75a]" name="composeMail" duration-ms="2" started-at="2017-10-24T17:33:39Z" finished-at="2017-10-24T17:33:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- composeMail -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:TestNG.TestNGGroupTest@5034c75a]" name="loginTest" duration-ms="2" started-at="2017-10-24T17:33:39Z" finished-at="2017-10-24T17:33:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- TestNG.TestNGGroupTest -->
+    </test> <!-- testngTest -->
+    <test name="DependencyTest" duration-ms="38" started-at="2017-10-24T21:33:39Z" finished-at="2017-10-24T21:33:39Z">
+      <class name="TestNG.TestngAnnotations">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:TestNG.TestngAnnotations@51efea79]" name="beforeSuite" is-config="true" duration-ms="8" started-at="2017-10-24T17:33:39Z" finished-at="2017-10-24T17:33:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:TestNG.TestngAnnotations@51efea79]" name="afterSuite" is-config="true" duration-ms="0" started-at="2017-10-24T17:33:39Z" finished-at="2017-10-24T17:33:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- TestNG.TestngAnnotations -->
+      <class name="TestNG.TestNGDependencies">
+        <test-method status="PASS" signature="verifyUserLogin()[pri:0, instance:TestNG.TestNGDependencies@26be92ad]" name="verifyUserLogin" duration-ms="1" started-at="2017-10-24T17:33:39Z" finished-at="2017-10-24T17:33:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserLogin -->
+        <test-method status="PASS" signature="verifyWishlistPage()[pri:0, instance:TestNG.TestNGDependencies@26be92ad]" name="verifyWishlistPage" duration-ms="1" started-at="2017-10-24T17:33:39Z" finished-at="2017-10-24T17:33:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWishlistPage -->
+        <test-method status="PASS" signature="login()[pri:0, instance:TestNG.TestNGDependencies@26be92ad]" name="login" duration-ms="2" started-at="2017-10-24T17:33:39Z" depends-on-methods="TestNG.TestNGDependencies.verifyUserLogin" finished-at="2017-10-24T17:33:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="verifyAccountSettings()[pri:0, instance:TestNG.TestNGDependencies@26be92ad]" name="verifyAccountSettings" duration-ms="3" depends-on-groups="userGroup" started-at="2017-10-24T17:33:39Z" finished-at="2017-10-24T17:33:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccountSettings -->
+        <test-method status="PASS" signature="verifyreportSettings()[pri:0, instance:TestNG.TestNGDependencies@26be92ad]" name="verifyreportSettings" duration-ms="1" started-at="2017-10-24T17:33:39Z" depends-on-methods="TestNG.TestNGDependencies.verifyUserLogin" finished-at="2017-10-24T17:33:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyreportSettings -->
+        <test-method status="PASS" signature="verifyGeneralSettings()[pri:0, instance:TestNG.TestNGDependencies@26be92ad]" name="verifyGeneralSettings" duration-ms="1" started-at="2017-10-24T17:33:39Z" depends-on-methods="TestNG.TestNGDependencies.verifyreportSettings" finished-at="2017-10-24T17:33:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGeneralSettings -->
+      </class> <!-- TestNG.TestNGDependencies -->
+      <class name="TestNG.TestDataprovider">
+        <test-method status="PASS" signature="loginInfo(java.lang.String, java.lang.String)[pri:0, instance:TestNG.TestDataprovider@46d56d67]" name="loginInfo" duration-ms="3" started-at="2017-10-24T17:33:39Z" data-provider="getData1" finished-at="2017-10-24T17:33:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[First Uid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[First Pwd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInfo -->
+        <test-method status="PASS" signature="loginInfo(java.lang.String, java.lang.String)[pri:0, instance:TestNG.TestDataprovider@46d56d67]" name="loginInfo" duration-ms="1" started-at="2017-10-24T17:33:39Z" data-provider="getData1" finished-at="2017-10-24T17:33:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Second Uid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Second Pwd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInfo -->
+      </class> <!-- TestNG.TestDataprovider -->
+    </test> <!-- DependencyTest -->
+  </suite> <!-- TestNG -->
+</testng-results>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestNG">
+	<test name="testngTest">
+		 <groups>
+			<define name="AllNonFunctionalTest">
+				<include name="skipTest"/>
+				<include name="NonskipTest"/>
+				<include name="smokeTest" />
+			</define>
+			<define name="AllFunctionalTest">
+				<include name="functionalTest" />
+				<!--  <include name ="DependencyTestGroup"/>-->
+			</define>
+			<define name="AllAnnotations">
+				<include name="annotationsTest"/>
+			</define>
+			<run>
+				<include name="AllFunctionalTest" />
+				<include name="annotationsTest"/>
+				<exclude name="testCase2"/>
+			</run>
+			
+		</groups> 
+		<classes>
+			<class name="TestNG.TestngAnnotations" />
+			<class name="TestNG.SkipTestCase" />
+			<class name="TestNG.TestNGGroupTest" />
+		</classes>
+	</test>
+	
+	<test name ="DependencyTest">
+		<groups>
+			<dependencies>
+				<group depends-on="userGroup" name="accountGroup"/>
+			</dependencies>
+		</groups>
+		<classes>
+			<class name="TestNG.TestNGDependencies" />
+			<class name="TestNG.TestDataprovider" />
+		</classes>
+	</test>
+</suite>
