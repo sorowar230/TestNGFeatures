@@ -8,7 +8,7 @@ public class SkipTestCase {
 	public void aSkipTest(){
 		String condition ="Skip Test";
 		if(condition.equals("Skip Test")){
-			throw new SkipException("Skipping - This is not ready for testing ");
+			throw new SkipException("Skipping - This is not ready for testing.... ");
 		}else{
 		System.out.println("I am in else condition");	
 		}
